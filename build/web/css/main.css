@@ -1,0 +1,202 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1 {     
+    font-size: 200%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+span#user-result {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+button.checkout_btn {
+    width: 40%;
+    padding: 7px;
+    background: #dbf7a6;
+    border-radius: 4px;
+    cursor: pointer;
+}
+br {
+    clear: both;
+}
+a.tosignin:link, .tosignin:visited {
+    color: blue;
+    text-decoration: none;
+    padding-top: 20px;
+    display: inline-block;
+}
+a.tosignin:hover{
+    text-decoration: underline;
+    font-style: oblique;
+    font-family: muli;
+    
+}
+#inputcheck{
+    padding: 5px 25px;
+    font-size: 20px;
+    background: yellowgreen;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#quantity {
+    width: 2em;
+}
+
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50em;
+}
+th, td {
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 40px;
+}
+.animate-zoom {
+    animation: animatezoom 0.6s;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 3% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0px 0px 6px 0px #1d1a1a;
+    border-radius: 3px;
+}
+.container {
+    padding: 5%;
+}
+.avatar {
+    width: 100%;
+    text-align: center;
+}
+.avatar img {
+    border-radius: 50%;
+}
+.h3-signup {
+    color: #03a4f4;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.input-box {
+    position: relative;
+}
+.input-box {
+    color: #545454;
+}
+.inputbox {
+    width: 100%;
+    padding: 12px 20px 12px 45px;
+    margin: 8px 0;
+    background-color: #f9f9f9;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.input-icon {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    line-height: 3.6em;
+    text-align: center;
+    width: 2.4em;
+}
+.input-icon:after {
+    border-right: 1px solid rgba(128, 128, 128, 0.55);
+    content: "";
+    position: absolute;
+    left: 2.3em;
+    bottom: 0.9em;
+    top: 0.9em;
+}
+a.fgpw:link, a.fgpw:active {
+    color: #03a4f4;
+}
+
+a.fgpw {
+    margin: 2% 1%;
+    display: inline-block;
+}
+.clearfix {
+    clear: both;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.cancelbtn {
+    float: right;
+    width: 35%;
+    border-radius: 5px;
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.signupbtn {
+    float: left;
+    width: 35%;
+    border-radius: 5px;
+}
+#checkorder img{
+    width: 50px;
+}
+.bill-table{
+    margin: 10px 0 50px 0; 
+    font-family: muli;
+}
+.customerinfo{
+    font-family: muli;
+    font-size: 20px;
+}
+.backhomepro {
+    background-image: url(//stormsend1.djicdn.com/stormsend/uploads/8fcdb700-b806-0135-c73c-12528100fbe3/Xmas_Store_Banner_final__1_.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.homepro1{
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    height: 220px;
+    background-image: url(//stormsend1.djicdn.com/stormsend/uploads/3e6cdf40-c163-0135-c887-12528100fbe3/store_banner_1200_220px_white_en_2x.png);
+}
+
